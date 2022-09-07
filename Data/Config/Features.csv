@@ -1,0 +1,14 @@
+Name,Value,Description
+Feature_SuccessMails,TRUE,Whether to send Emails in case of Success
+Feature_SystemExceptionMails,TRUE,Whether to send Emails in case of SystemException
+Feature_InitExceptionMails,TRUE,Whether to send Emails in case of InitException
+Feature_BusinessExceptionMails,TRUE,Whether to send Emails in case of BusinessException
+Feature_NotImplementedExceptionMails,TRUE,Whether to send Emails in case of NotImplementedException
+Feature_ReportMails,TRUE,Whether to send Emails for run report
+,,
+Feature_ReportFile,TRUE,Whether to use Report File
+Feature_ReportingQueue,FALSE,Whether to add to report queue
+Feature_PreserveStepAtRetry,FALSE,Preserve Last Step When retry
+Feature_Screenshots,TRUE,Whether to take screenshots in case of exceptions
+Feature_CollectTransaction,TRUE,Whether to collect transaction at init
+Feature_LegacyReportingQueue,FALSE,Whether to add to legacy report queue

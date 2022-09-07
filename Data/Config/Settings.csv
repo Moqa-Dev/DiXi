@@ -1,0 +1,11 @@
+Name,Value,Description
+OrchestratorQueueName,<PROCESS_QUEUE>,Orchestrator Queue Name. Be sure to match this name with the one from the server.
+,,
+logF_BusinessProcessName,<PROCESS_NAME>,This is a logging field which allows you to group the log data of two or more subprocesses under the same business process name
+,,
+TransactionIDField,<TRANSACTION_ID>,Reference to be used for logging. Field is SpecificContent for Queue or ColumnName for DataTable. If not defiend Queue ref or Timestamp will be used
+ReportingQueueAction,<PROCESS_ACTION>,Action the process takes (for reporting queue) EX: Ticket
+ReportingQueueName,ReportingQueue,Name of the queue which all transactions will be added to
+LegacyReportingQueue,process_trigger,Name of the legacy queue which all transactions will be added to
+,,
+IsDev,TRUE,Whether is dev or not. Used for debugging
