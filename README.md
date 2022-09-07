@@ -1,8 +1,11 @@
 # DiXi Framework
 
-# Version: 1.0.0
-
-# Author: Mahmoud Shaheen
+Version: [1.0.0](https://github.com/Moqa-Dev/DiXi/releases/tag/1.0.0)  
+Author: [Mahmoud Shaheen](https://www.moshaheen.com/)
+## Links:
+[Download](https://github.com/Moqa-Dev/DiXi/releases/download/1.0.0/DiXi.zip)  
+[Website](https://moqa.moshaheen.com/DiXi/)  
+[Github](https://github.com/Moqa-Dev/DiXi/)  
 
 ## Why?
 Our main goal is to separate application logic from business logic.
