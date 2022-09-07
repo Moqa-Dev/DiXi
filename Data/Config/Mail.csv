@@ -1,0 +1,22 @@
+Name,Value,Description
+MailProvider,exchange,"Client to be used for Email Operations. Supported Values [ ""exchange"", ""outlook""]"
+Exchange_Server,<EXCHANGE_SERVER>,Exchange server link to be used for Email Operations
+Exchange_Domain,<EXCHANGE_DOMAIN>,Exchange Domain to be used for Email Operations
+Exchange_Username,<EXCHANGE_USERNAME>,Exchange Mail (Typically operation server mail) to be used for Email Operations
+Exchange_Password,<EXCHANGE_PASSWORD>,Exchange Password (Typically operation server mail) to be used for Email Operations
+,,
+Outlook_Account,<OUTLOOK_ACCOUNT>,Outlook Account to be used for Email Operations
+,,
+Timeout_MailGet,90000,Timeout value in milliseconds. for Get Email Activity. Must be integer
+Timeout_MailSend,90000,Timeout value in milliseconds. for Send Email Activity. Must be integer
+,,
+SystemExceptionToMail,<SME_EMAIL>,To whom system exceptions mails should be sent(Typically Operation team). 
+SystemExceptionMailSubject,[<PROCESS_NAME> System Exception],System Exceptions Mail Subject
+BusinessExceptionToMail,<SME_EMAIL>,To whom business exceptions mails should be sent(Typically Business team). 
+BusinessExceptionMailSubject,[<PROCESS_NAME> Business Exception],Business Exceptions Mail Subject
+NotImplementedExceptionToMail,<SME_EMAIL>,To whom NotImplemented exceptions mails should be sent(Typically Business team). 
+NotImplementedExceptionMailSubject,[<PROCESS_NAME> NotImplemented Exception],NotImplemented Exceptions Mail Subject
+SuccessToMail,<SME_EMAIL>,To whom Success mails should be sent(Typically Business team).
+SuccessMailSubject,[<PROCESS_NAME> Success],Success Mail Subject
+ReportToMail,<SME_EMAIL>,To whom Run report mails should be sent(Typically Operation team).
+ReportMailSubject,[<PROCESS_NAME> Report],Report Mail Subject
