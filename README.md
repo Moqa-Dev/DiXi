@@ -1,5 +1,7 @@
 # DiXi Framework
 
+Part of [MoQa](https://moqa.moshaheen.com/) Project  
+
 Version: [1.0.0](https://github.com/Moqa-Dev/DiXi/releases/tag/1.0.0)  
 Author: [Mahmoud Shaheen](https://www.moshaheen.com/)
 ## Links:
